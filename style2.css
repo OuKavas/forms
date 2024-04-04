@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(122, 236, 226);
+    font-family: arial, Helvetica, sans-serif;
+}
+input[type=text] {
+    background-color: rgb(234, 227, 227);
+    color: white;
+  }
+  input[type=email] {
+    background-color:  rgb(237, 232, 232);
+    color: white;
+  }
+  input[type=password] {
+    background-color: rgb(240, 234, 234);
+    color: rgb(255, 255, 255);
+  }
+  textarea {
+    width: 100%;
+    height: 100px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid ;
+    border-radius: 5px;
+    background-color: rgb(170, 195, 206);
+    resize: none;
+    box-shadow: 10px 10px 5px rgb(0, 3, 4)
+  }
+  input[type=date] {
+    background-color:  rgb(238, 228, 228);
+    color: rgb(0, 0, 0);
+    width: 50%;
+    height: 30px;
+    padding: 10px 20px;
+    text-align: center;
+    border: 3px solid; 
+  }
+  select {
+    width:60%;
+    border: 3px solid;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+  }
+  fieldset{
+    background-color: rgb(170, 195, 206);
+    box-shadow: 10px 10px 5px rgb(0, 3, 4)
+  }
+  input[type=submit], input[type=reset] {
+    background-color: #05466a;
+    border: 3px solid black;
+    color: white;
+    padding: 20px 32px;
+    cursor: pointer;
+    width: 100%; 
+    border-radius: 8px;
+    padding: 10px;
+    margin: 15px;
+    max-width: 200px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    text-align: center;
+  }
